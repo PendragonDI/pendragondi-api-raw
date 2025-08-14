@@ -1,0 +1,6 @@
+# Default keys to mask:
+# - authorization
+# - api_key
+# - token
+# - email
+# - ssn

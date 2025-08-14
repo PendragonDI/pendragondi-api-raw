@@ -1,0 +1,17 @@
+[project]
+name = "pendragon-api-raw"
+version = "1.0.0"
+description = "Detect redundant API calls, retry storms, and cacheable waste."
+authors = ["Jin Pendragon <you@example.com>"]
+license = {text = "MIT"}
+dependencies = ["PyYAML", "rich", "aiohttp"]
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["pendragon_api_raw"]
+
+[tool.ruff]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+ignore_missing_imports = true

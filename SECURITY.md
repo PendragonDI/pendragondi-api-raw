@@ -1,0 +1,1 @@
+Please report security issues via GitHub issues or by emailing the maintainer.
