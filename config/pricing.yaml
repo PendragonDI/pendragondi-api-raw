@@ -1,3 +1,9 @@
-# Example:
-# /v1/chat/completions: 0.002
-# default: 0.001
+openai:
+  cost_per_call: 0.002
+  note: "This assumes minimal token usage per call."
+twilio:
+  cost_per_call: 0.0075
+  note: "Typical SMS cost."
+aws_lambda:
+  cost_per_million: 0.20
+  note: "Estimates based on 1M invocations."
