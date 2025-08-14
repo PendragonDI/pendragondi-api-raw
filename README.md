@@ -139,4 +139,4 @@ When contributing:
 ## 💖 Support the Project
 Pendragondi.API Raw is open-source and free to use.  
 If you’ve found it useful and would like to support ongoing development, you can sponsor us on GitHub:  
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-💖-pink?style=flat)](https://github.com/sponsors/PendragonDI)
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-💖-pink?style=flat)](https://github.com/sponsors/jinpendragon)
