@@ -133,7 +133,7 @@ When contributing:
 - Ensure any new code has appropriate type hints and docstrings.
 - Run the test suite and add tests for new functionality.
 - Submit a descriptive pull request so changes can be reviewed efficiently.
-
+Support/Contact: pendragondi@pendragondi.dev
 ---
 
 ## 💖 Support the Project
