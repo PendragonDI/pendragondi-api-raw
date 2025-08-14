@@ -5,7 +5,7 @@ description = "PendragonDI API – lightweight tool to detect redundant API call
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-  { name = "Jin Pendragon", email = "pendragon@pendragondi.com" }
+  { name = "jinpendragon", email = "pendragondi@pendragondi.com" }
 ]
 license = { file = "LICENSE" }
 
