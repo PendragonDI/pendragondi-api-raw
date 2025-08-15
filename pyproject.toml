@@ -1,18 +1,60 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "pendragondi-api-raw"
 version = "1.0.0"
-description = "PendragonDI API – lightweight tool to detect redundant API calls and inefficiencies"
+description = "PendragonDI API – lightweight tool to detect redundant API call waste, inefficiency, and missed savings in Python apps."
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-  { name = "jinpendragon", email = "pendragondi@pendragondi.com" }
+    { name = "jinpendragon", email = "pendragondi@pendragondi.dev" }
 ]
 license = { file = "LICENSE" }
+dependencies = [
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+    "pydantic>=2.0.0",
+    "sqlite-utils>=3.0.0",
+    "pyyaml>=6.0"
+]
 
 [project.urls]
 Homepage = "https://github.com/PendragonDI/pendragondi-api-raw"
 Repository = "https://github.com/PendragonDI/pendragondi-api-raw"
+Documentation = "https://github.com/PendragonDI/pendragondi-api-raw"
+"Bug Tracker" = "https://github.com/PendragonDI/pendragondi-api-raw/issues"
+Changelog = "https://github.com/PendragonDI/pendragondi-api-raw/releases"
+
+[project.scripts]
+pendragondi = "pendragondi_api_raw.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
 exclude = []
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+ignore_missing_imports = true
+strict = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["pendragondi_api_raw"]
+
+[tool.coverage.report]
+show_missing = true
