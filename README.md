@@ -2,6 +2,8 @@
 
 > **Find out how much you're wasting on redundant API calls — with one decorator and one command.**
 
+This is our first public release! Feedback and bug reports are very welcome—if you run into anything unexpected, please open an issue. We'll be shipping improvements quickly.
+
 Pendragondi.API Raw is a local utility that tracks API usage patterns in your Python applications and surfaces hidden inefficiencies like:
 - Repeated identical API calls
 - Missed caching opportunities
