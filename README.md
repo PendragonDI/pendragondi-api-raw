@@ -58,10 +58,10 @@ pip install -e .
 ### 1. Decorate your API functions:
 
 ```python
-from pendragondi_api_raw.decorator import log_api_call_decorator
+from pendragondi_api_raw import log_api_call
 import requests
 
-@log_api_call_decorator(service="openai", cacheable=True)
+@log_api_call(service="openai", cacheable=True)
 def call_openai():
     return requests.post("https://api.openai.com/v1/chat/completions", json={"prompt": "Hello"})
 ```
