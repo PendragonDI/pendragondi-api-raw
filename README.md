@@ -39,6 +39,14 @@ Pendragondi.API Raw gives you a simple, local way to see your API usage like an 
 
 ## 🛠️ Installation
 
+Install from PyPI:
+
+```bash
+pip install pendragondi-api-raw
+```
+
+Or install from GitHub:
+
 ```bash
 pip install git+https://github.com/PendragonDI/pendragondi-api-raw.git
 ```
